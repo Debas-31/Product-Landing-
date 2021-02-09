@@ -14,14 +14,13 @@
             ">
     <nav id="nav-bar">
         <a class="nav-link" href="#home">Home</a>
-        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#video_HD">Video</a>
         <a class="nav-link" href="#about_us">About Us</a>
     </nav>
 </header>
 <main>
 <section id="home" class="home">
-    <a class='anchor' ></a>
-    <h1 id="well"> Welcome to HD Graphics Design</h1>
+    <h1 class="well"> Welcome to HD Graphics Design</h1>
     <img src="s.png" alt="HD Graphics" >
 <p class="gz"> We are here to serve you with new design with different  styles and colours.</p>
     <h2>Some of design patern:</h2>
@@ -33,12 +32,16 @@
 </ul> 
 </section>
 
-<section>
+<section id="video_HD">
     <p id="roll"> Watch our design , how it looks!</p>
-    <iframe id = "Video" width="560" height="315" src="https://www.youtube.com/embed/792bP_HM0aA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">allowfullscreen></iframe>
-         </section>
+    <video id="video" autoplay loop src="https://www.youtube.com/embed/792bP_HM0aA
+    " type="video/mp4">
+        <p>Your browser doesn't support mp4 video</p>
+      </video>
+      
+</section>
 
-    <section>
+    <section id="about_us">
     <form id="form" action="https://www.freecodecamp.com/email-submit.com">
         <label for="email">Email:</label>
         <input type="email" name="email"  id="email" placeholder="  user@example.com" required> 
